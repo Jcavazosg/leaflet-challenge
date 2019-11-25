@@ -1,4 +1,6 @@
-# Leaflet Homework - Visualizing Data with Leaflet
+# Visualizing Data with Leaflet
+
+ Application published at: https://jcavazosg.github.io/leaflet-challenge/
 
 ## Background
 
