@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<title>Earthquakes</title>
 <head>
-  <meta charset="utf-8">
-  <title>USGS Earthquakes Data Visualization</title>
 
-  <!-- Leaflet CSS & JS -->
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
   crossorigin=""/>
+
+  <!-- Icons -->
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- <link rel="stylesheet" href="css/leaflet.extra-markers.min.css"> -->
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="Leaflet-Step-1/static/css/style.css">
+
+</head>
+
+<body>
+
+  <div id="map-id">
+          <!-- We append our chart here. -->
+      
+  </div>
+
+  <!-- D3 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
+
+  <!-- MomentJS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+  <!-- Leaflet JavaScript -->
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
   integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
-
-  <!-- D3 CDN Javascript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
-</head>
+  crossorigin=""></script
 
 <body>
   <!-- The div to Inject Map -->
