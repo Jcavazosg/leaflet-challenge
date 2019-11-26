@@ -1,10 +1,13 @@
 const accessToken = "pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA"
 
-var graymap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}");
+var graymap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?" +
+"access_token=pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA");
 
-var satellitemap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}");
+var satellitemap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/256/{z}/{x}/{y}?" +
+"access_token=pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA");
 
-var outdoormap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoormaps-v9/tiles/256/{z}/{x}/{y}?access_token={accessToken}");
+var outdoormap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoormaps-v9/tiles/256/{z}/{x}/{y}?" + 
+"access_token=pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA");
 
 var maps = L.map("mapid", {
   center: [37.09, -95.71],
