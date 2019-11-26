@@ -1,5 +1,3 @@
-const accessToken = "pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA"
-
 var graymap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?" +
 "access_token=pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA");
 
