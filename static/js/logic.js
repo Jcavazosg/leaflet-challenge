@@ -13,7 +13,7 @@ var maps = L.map("mapid", {
   layers: [graymap, satellitemap, outdoormap]
 });
 
-graymap.addTo(map);
+graymap.addTo(maps);
 
 var plates = new L.LayerGroup();
 var earthquakes = new L.LayerGroup();
