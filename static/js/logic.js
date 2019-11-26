@@ -7,13 +7,13 @@ var satellitemap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/satellit
 var outdoormap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoormaps-v9/tiles/256/{z}/{x}/{y}?" + 
 "access_token=pk.eyJ1IjoiY2F2YXpvc2dhcnphIiwiYSI6ImNrM2V6OHk1ZzAwc2MzZnMxbzN6b3d3OGMifQ.c_efJhiaO7yilR34-PnlUA");
 
-var maps = L.map("mapid", {
+var map = L.map("mapid", {
   center: [37.09, -95.71],
   zoom: 5,
   layers: [graymap, satellitemap, outdoormap]
 });
 
-graymap.addTo(maps);
+graymap.addTo(map);
 
 var plates = new L.LayerGroup();
 var earthquakes = new L.LayerGroup();
